@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinterest</title>
+  <link rel="icon" type="image/png" href="https://www.pinterest.com/favicon.ico" sizes="16x16">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <% if(nav === true){ %>
+    <div class="w-full bg-zinc-300  text-black">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h3 class="text-xl font-semibold">Pinterest</h3>
+            <div class="flex items-center gap-6">
+                <a href="/profile" class="text-md font-semibold hover:text-gray-300">Profile</a>
+                <a href="/feed" class="text-md font-semibold hover:text-gray-300">Feed</a>
+                <a href="/logout" class="px-3 py-2 bg-red-700 text-white rounded-lg hover:bg-red-600 transition duration-300">Logout</a>
+            </div>
+        </div>
+    </div>
+<% } %>
+
+
+  <!-- <% if(nav === true){ %>
+    <div class="w-full px-10 py-3 flex justify-between items-center bg-zinc-800 text-white">
+      <h3>Pinterst</h3>
+      <div class="flex gap-10 items-center">
+        <a href="/profile">Profile</a>
+        <a href="/feed">Feed</a>
+        <a href="/logout" class="px-3 py-2 bg-red-700 text-white rounded-lg ">Logout</a>
+      </div>
+    </div>
+  <% } %> -->
+
+  
